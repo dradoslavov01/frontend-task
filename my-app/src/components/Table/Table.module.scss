@@ -1,0 +1,45 @@
+/** @format */
+
+.container {
+  width: 100%;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    .avatar {
+      width: 110px;
+      height: 80px;
+    }
+
+    .editButton {
+      background-color: rgb(93, 93, 255);
+      color: white;
+    }
+
+    .deleteButton {
+      background-color: rgb(255, 69, 69);
+      color: white;
+    }
+
+    td,
+    th {
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #ddd;
+    }
+
+    th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #04aa6d;
+      color: white;
+    }
+  }
+}

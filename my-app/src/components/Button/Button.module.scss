@@ -1,0 +1,11 @@
+.button {
+  margin-right: 15px;
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
